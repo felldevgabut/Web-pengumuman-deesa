@@ -1,0 +1,202 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.fullcontainer {
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #18ce00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.judulbar {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.judulbar .pertama {
+    margin-right: 5px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: opacity 0.3s;
+}
+
+.nav li a:hover {
+    opacity: 0.8;
+}
+
+/* Container & Sections */
+.container {
+    padding: 60px 20px;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+.content {
+    max-width: 900px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.content h1, .content h2 {
+    color: #18ce00;
+    margin-top: 0;
+}
+
+.content p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #18ce00;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #129c00;
+    transform: translateY(-2px);
+}
+
+/* Pengumuman List Styles */
+.doc-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.doc-item {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 6px solid #18ce00;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    border-left-width: 6px;
+    border-left-color: #18ce00;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.doc-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    border-left-color: #129c00;
+}
+
+.doc-icon {
+    font-size: 28px;
+    margin-right: 18px;
+}
+
+.doc-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    flex-grow: 1;
+}
+
+.doc-link:hover {
+    color: #18ce00;
+}
+
+.view-btn {
+    font-size: 0.9rem;
+    color: #18ce00;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #e8fbe5;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.doc-item:hover .view-btn {
+    background-color: #d1f7cb;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.gallery-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02) translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.gallery-caption {
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #444;
+}
