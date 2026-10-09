@@ -13,7 +13,7 @@ body, html {
 
 /* Navbar */
 .navbar {
-    background-color: #18ce00;
+     background: linear-gradient(135deg, #0f78ce 0%, #064b8a 100%);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -78,7 +78,7 @@ body, html {
 }
 
 .content h1, .content h2 {
-    color: #18ce00;
+    color: #0692f0;
     margin-top: 0;
 }
 
@@ -90,7 +90,7 @@ body, html {
 .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #18ce00;
+    background-color: #0692f0;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -101,7 +101,7 @@ body, html {
 }
 
 .btn:hover {
-    background-color: #129c00;
+    background-color: #00319c;
     transform: translateY(-2px);
 }
 
@@ -117,12 +117,12 @@ body, html {
     margin-bottom: 15px;
     padding: 15px 20px;
     border-radius: 8px;
-    border-left: 6px solid #18ce00;
+    border-left: 6px solid #0692f0;
     display: flex;
     align-items: center;
     border: 1px solid #eee;
     border-left-width: 6px;
-    border-left-color: #18ce00;
+    border-left-color: #0692f0;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
@@ -130,7 +130,7 @@ body, html {
 .doc-item:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.08);
-    border-left-color: #129c00;
+    border-left-color: #0692f0;
 }
 
 .doc-icon {
@@ -147,12 +147,12 @@ body, html {
 }
 
 .doc-link:hover {
-    color: #18ce00;
+    color: #0692f0;
 }
 
 .view-btn {
     font-size: 0.9rem;
-    color: #18ce00;
+    color: #0692f0;
     font-weight: bold;
     padding: 5px 10px;
     background-color: #e8fbe5;
