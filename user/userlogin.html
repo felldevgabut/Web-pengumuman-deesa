@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Warga - Lingkungan IV</title>
+    <link rel="stylesheet" href="userlog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-card">
+            <div class="login-header">
+                <h2>Selamat Datang Warga</h2>
+                <p>Lingkungan IV</p>
+            </div>
+            
+            <form id="userLoginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Masukkan username" required autocomplete="off">
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Masukkan password" required>
+                </div>
+                
+                <button type="submit" id="loginBtn" class="btn-login">Masuk</button>
+            </form>
+
+            <div class="login-footer">
+                <a href="../identifikasi/identifikasi.html">← Kembali ke Pilihan Peran</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="passworduser.js"></script>
+</body>
+</html>
