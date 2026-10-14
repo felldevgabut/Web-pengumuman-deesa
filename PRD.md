@@ -116,7 +116,7 @@ Web pengumuman deesa/
 - Terdapat tombol menuju bagian Pengumuman dan Galeri.
 - Tampilan memenuhi satu layar penuh.
 
-**Section 2 — Pengumuman Dokumen**
+Section 2 — Pengumuman Dokumen
 - Menampilkan daftar dokumen dari database.
 - Setiap item menampilkan ikon tipe file, nama dokumen,
   dan tombol "Buka".
@@ -128,7 +128,7 @@ Web pengumuman deesa/
     - PPT    → 📙
     - Lainnya→ 📄
 
-**Section 3 — Galeri Foto**
+Section 3 — Galeri Foto
 - Menampilkan foto dari database dalam format grid.
 - Setiap kartu foto menampilkan gambar dan judul di bawahnya.
 
